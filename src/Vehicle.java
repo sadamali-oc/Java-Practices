@@ -1,7 +1,15 @@
 public class Vehicle {
 
-    int cost =400;
-    int mileage=40;
+    int cost =0;
+    int mileage=0;
+
+
+    public  Vehicle(int c,int m) {
+
+        cost = c;
+        mileage=m;
+
+    }
 
     public  void show_vehicle (){
         System.out.println("I am a vehicle");

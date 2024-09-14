@@ -1,6 +1,16 @@
 public class Car extends Vehicle{
-    String color="blue";
-    int tyres = 4;
+    String color="";
+    int tyres ;
+
+    public Car(int c, int m,String col, int ty) {
+
+        super(c, m);
+        color=col;
+        tyres=ty;
+
+    }
+
+
 
 
     public  void show_car_details(){
