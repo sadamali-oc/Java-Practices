@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class Main{
 
 public static void main (String [] args){
-    Scanner input=new Scanner(System.in);
-    System.out.println("Enter salary: ");
-    int salary= input.nextInt();
 
+    if(20>14){
+        System.out.println("True");
+    }else {
+        System.out.println("False");
 
+    }
 
 
         }
