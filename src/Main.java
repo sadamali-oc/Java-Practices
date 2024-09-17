@@ -5,7 +5,13 @@ class Main {
 //       float d=23.32f;
 //       boolean x=true;
 
-        System.out.println(x);
+        byte b=127;
+        int a =b;
+        b=(byte)a;
+
+
+
+        System.out.println(b);
     }
 
 }
