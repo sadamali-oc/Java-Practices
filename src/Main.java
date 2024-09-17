@@ -1,17 +1,13 @@
 class Main {
     public  static void main(String  args[]){
-//       double n=4.235;
-//
-//       float d=23.32f;
-//       boolean x=true;
 
-        byte b=127;
-        int a =b;
-        b=(byte)a;
+        int b=4;
+        int c=32;
+        boolean result = b<c;
 
 
 
-        System.out.println(b);
+        System.out.println(result);
     }
 
 }
