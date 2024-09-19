@@ -24,7 +24,7 @@ public class Demo {
 
 
         int a =10;
-        
+
     Calculator calc = new Calculator() ;
     int result= calc.add(24,356);
     System.out.println(result);

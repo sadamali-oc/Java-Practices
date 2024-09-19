@@ -1,12 +1,29 @@
-public class Array {
+public  class Array {
     public static void main(String[] args) {
-        char[] a= new char[3];
-        a[0]='a';
-        a[1]='b';
-        a[2]='c';
+        int arr[]=new int[3];
 
-        for (int i=0;i<3;i++){
-            System.out.println(a[i]);
-        }
+      int nums[] ={234,24,23};
+
+      for (int i=0;i<3;i++){
+          System.out.println(nums[i]);
+      }
+//        nums[1]=1;
+
+
+
+
+////
+////
+////        System.out.println(nums[1]);
+//
+//
+//        int nums[]=new int[4];
+//        nums[1]=23;
+//        System.out.println(nums[1]);
+
+
+
+
+
     }
 }
